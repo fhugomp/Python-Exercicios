@@ -1,0 +1,5 @@
+nome = input(f'Qual o seu \033[97mnome?\033[m')
+dia = input('Em que dia você \033[34mnasceu?\033[m')
+mes = input('Em qual mes você \033[31mnasceu?\033[m')
+ano = input('Em qual ano você \033[36mnasceu?\033[m')
+print(f'Olá, \033[31m{nome}\033[m Seja Bem-Vindo. Sua data de nascimeto é \033[36m{dia}/{mes}/{ano}\033[m não é mesmo?')

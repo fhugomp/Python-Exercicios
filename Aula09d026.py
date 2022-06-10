@@ -1,0 +1,8 @@
+fra = str(input('Digite um frase: ')).strip().lower()
+a = fra.count('a')
+c = fra.find('a')
+f = fra.rfind('a')
+print(f'De acordo com a frase digitada ela tem: ')
+print(f'{a} letras "a" presentes na frase')
+print(f'O primeiro "a" aparece na {c + 1} posição')
+print(f'E o ultimo "a" aparece na {f + 1} posição')
